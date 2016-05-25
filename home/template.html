@@ -15,8 +15,20 @@
 	top:-3em;
 	left:0em;
       }
-      .navbar:hover{
+      .navbar:hover {
 	top:0em;
+      }
+      .navbar h2 {
+      	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	font-family:verdana,arial;
+	text-decoration:none;
+	color:#00ccff;
+	transition: color 0.5s;
+      }
+      .navbar h2:hover{
+	color:#55ddff;
       }
       html {
         background-color: #eee;
@@ -24,6 +36,10 @@
     </style>
   </head>
   <body>
-    <div class = "navbar"></div>
+    <div class = "navbar">
+    	<h2>Home</h2>
+    	<h2>Downloads</h2>
+    	<h2>Fonts</h2>
+    </div>
   </body>
 </html>
